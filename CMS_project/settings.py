@@ -37,7 +37,7 @@ INSTALLED_APPS = [
     'django.contrib.sessions',
     'django.contrib.messages',
     'django.contrib.staticfiles',
-    'hospital_management_app',
+    'CMS_app',
     'rest_framework',
     
 ]

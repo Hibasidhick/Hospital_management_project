@@ -39,6 +39,7 @@ INSTALLED_APPS = [
     'django.contrib.staticfiles',
     'CMS_app',
     'rest_framework',
+    'RecepApp',
     
 ]
 
@@ -86,9 +87,9 @@ WSGI_APPLICATION = 'hospital_management_project.wsgi.application'
 DATABASES = {
     'default': {
         'ENGINE': 'django.db.backends.mysql',
-        'NAME': 'hospital_management_system',
+        'NAME': 'CMS_db',
         'USER': 'root',
-        'PASSWORD': 'Hiba@1999',
+        'PASSWORD': 'Stains07#',
         'HOST': 'localhost',
         'PORT': 3306,
     }
